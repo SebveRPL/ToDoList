@@ -1,0 +1,16 @@
+table.tables {
+	font-size: 2rem;
+	border-collapse: collapse;
+
+	& td,
+	& th {
+		box-sizing: content-box;
+		border: 2px solid $bgColor;
+		padding: 4px;
+		text-align: center;
+	}
+
+	& tr {
+		background-color: $mainColor;
+	}
+}

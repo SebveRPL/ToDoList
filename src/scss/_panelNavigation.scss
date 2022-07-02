@@ -1,0 +1,19 @@
+nav.panel-navigation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 90vh;
+	width: 6.5vw;
+	background-color: $mainColor;
+
+	a.nav-links {
+		font-size: 2rem;
+		color: $bgColor;
+		transition: color 0.2s linear;
+
+		&:hover {
+			color: $whiteColor;
+		}
+	}
+}

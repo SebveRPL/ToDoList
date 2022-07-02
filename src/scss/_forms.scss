@@ -1,0 +1,66 @@
+@import 'variables';
+
+.labels {
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: $whiteColor;
+	&.error {
+		font-weight: 700;
+		color: red;
+		text-align: center;
+	}
+
+	&.success {
+		font-weight: 700;
+		color: lime;
+		text-align: center;
+	}
+}
+
+div.place-holder {
+	margin: 5px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	&:last-child {
+		justify-content: center;
+	}
+}
+
+input.inputs,
+textarea.textarea,
+input.date,
+select.select {
+	margin-left: 2px;
+	border: 0.5px solid $mainColor;
+	border-radius: 2px;
+	background-color: transparent;
+	font-size: 1rem;
+	color: white;
+	transition: background-color 0.2s linear;
+
+	&:focus {
+		background-color: black;
+	}
+}
+
+textarea.textarea {
+	margin-left: 2px;
+	border: 0.5px solid $mainColor;
+	border-radius: 2px;
+	background-color: transparent;
+	font-size: 1rem;
+	color: white;
+	transition: background-color 0.2s linear;
+
+	&:focus {
+		background-color: black;
+	}
+}
+
+input.buttons {
+	font-size: 1.5rem;
+}

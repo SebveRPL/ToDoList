@@ -1,0 +1,98 @@
+@import 'variables';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.white {
+	color: white;
+}
+
+div.container {
+	max-width: 1920px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-family: $fontFamily;
+	font-size: $fontSize;
+}
+
+a.links {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+	color: $mainColor;
+}
+
+.buttons {
+	box-sizing: content-box;
+	border: 1px solid $mainColor;
+	border-radius: 2px;
+	padding: 5px 10px;
+	background-color: transparent;
+	font-weight: 700;
+	font-size: 1.2rem;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background-color 0.2s linear, color 0.2s linear,
+		border-color 0.2s linear;
+
+	&:active,
+	&.red:hover {
+		background-color: black;
+	}
+
+	&.red:hover {
+		border-color: black;
+		color: red;
+	}
+}
+
+a.buttons {
+	text-decoration: none;
+}
+
+a.pages-links {
+	color: $whiteColor;
+	font-size: 2rem;
+	text-decoration: none;
+	transition: color 0.2s linear;
+	&:hover {
+		color: $mainColor;
+	}
+
+	&.active {
+		font-weight: 700;
+	}
+}
+
+.space {
+	font-size: 1.8rem;
+}
+
+a.edit-links {
+	color: $bgColor;
+	text-decoration: none;
+	transition: color 0.2s linear;
+
+	&:hover {
+		color: $whiteColor;
+	}
+}
+
+p.paragraph {
+	font-size: 2rem;
+	text-align: center;
+
+	&.error {
+		font-weight: bold;
+		color: red;
+	}
+
+	&.success {
+		font-weight: bold;
+		color: $mainColor;
+	}
+}

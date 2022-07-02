@@ -1,0 +1,101 @@
+main.main-section {
+	display: flex;
+	flex-direction: row;
+
+	section.panel-section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		flex-grow: 2;
+		background-color: $bgColor;
+	}
+}
+
+section.pages-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+section.addElement {
+	display: flex;
+	justify-content: center;
+}
+
+section.delete-account {
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 2;
+	background-color: $bgColor;
+	&.active {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
+
+	article.delete-information {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 10px 20px;
+		background-color: $bgColor;
+		border: 2px solid $mainColor;
+		width: 500px;
+		aspect-ratio: 16/9;
+	}
+
+	article.buttons-section {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		padding-top: 10px;
+	}
+}
+
+aside.things-div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+
+	div.thing-to-do {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+		padding: 10px 20px;
+		border: 2px solid black;
+		border-bottom-right-radius: 25%;
+		width: 350px;
+		font-size: 1.35rem;
+		color: white;
+		background-color: $mainColor;
+		text-align: center;
+		margin: 5px 10px 5px 0;
+	}
+}
+
+aside.filters {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+div.buttons-div {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}

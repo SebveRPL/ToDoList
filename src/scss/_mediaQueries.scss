@@ -1,0 +1,441 @@
+@media (min-width: 320px) {
+	h1.heading1 {
+		font-size: 2.3rem;
+	}
+
+	h2.heading2 {
+		font-size: 1.6rem;
+	}
+
+	.labels {
+		font-size: 1.1rem;
+	}
+
+	div.place-holder {
+		margin: 6px 0;
+	}
+
+	input.inputs,
+	textarea.textarea,
+	input.date,
+	select.select {
+		font-size: 1.1rem;
+	}
+
+	header.header {
+		span.sub-text {
+			font-size: 1.2rem;
+		}
+
+		section.right-header {
+			p.paragraph {
+				font-size: 1.4rem;
+			}
+		}
+	}
+}
+
+@media (min-width: 360px) {
+	h1.heading1 {
+		font-size: 2.7rem;
+	}
+
+	h2.heading2 {
+		font-size: 1.7rem;
+	}
+
+	.labels {
+		font-size: 1.2rem;
+	}
+
+	div.place-holder {
+		margin: 6px 0;
+	}
+
+	input.inputs,
+	textarea.textarea,
+	input.date,
+	select.select {
+		font-size: 1.2rem;
+	}
+
+	.buttons {
+		font-size: 1.3rem;
+	}
+
+	header.header {
+		span.sub-text {
+			font-size: 1.3rem;
+		}
+
+		section.right-header {
+			p.paragraph {
+				font-size: 1.6rem;
+			}
+		}
+	}
+	nav.navigation {
+		ul.menu {
+			font-size: 1.7rem;
+			li.menu-element {
+				padding: 6px 0;
+			}
+		}
+	}
+}
+
+@media (min-width: 390px) {
+	h1.heading1 {
+		font-size: 3rem;
+	}
+
+	h2.heading2 {
+		font-size: 1.8rem;
+	}
+
+	.labels {
+		font-size: 1.4rem;
+	}
+
+	div.place-holder {
+		margin: 8px 0;
+	}
+
+	input.inputs,
+	textarea.textarea,
+	input.date,
+	select.select {
+		font-size: 1.4rem;
+	}
+
+	.buttons {
+		font-size: 1.5rem;
+	}
+
+	header.header {
+		span.sub-text {
+			font-size: 1.5rem;
+		}
+
+		section.right-header {
+			p.paragraph {
+				font-size: 1.8rem;
+			}
+		}
+	}
+
+	nav.navigation {
+		ul.menu {
+			font-size: 1.8rem;
+			li.menu-element {
+				padding: 7px 0;
+			}
+		}
+	}
+}
+
+@media (orientation: landscape) {
+	h1.heading1 {
+		font-size: 3rem;
+	}
+
+	header.header {
+		span.sub-text {
+			font-size: 1.5rem;
+		}
+
+		section.right-header {
+			p.paragraph {
+				font-size: 1.3rem;
+			}
+		}
+	}
+}
+
+@media (orientation: landscape) and (min-width: 640px) {
+	h1.heading1 {
+		font-size: 3rem;
+	}
+
+	header.header {
+		span.sub-text {
+			font-size: 1.5rem;
+		}
+
+		section.right-header {
+			p.paragraph {
+				font-size: 1.5rem;
+			}
+		}
+	}
+}
+
+@media (orientation: landscape) and (min-width: 890px) {
+	h1.heading1 {
+		font-size: 3.5rem;
+	}
+
+	h2.heading2 {
+		font-size: 1.8rem;
+	}
+
+	.labels {
+		font-size: 1.4rem;
+	}
+
+	div.place-holder {
+		margin: 8px 0;
+	}
+
+	input.inputs,
+	textarea.textarea,
+	input.date,
+	select.select {
+		font-size: 1.4rem;
+	}
+
+	.buttons {
+		font-size: 1.5rem;
+	}
+
+	header.header {
+		span.sub-text {
+			font-size: 2rem;
+		}
+
+		section.right-header {
+			p.paragraph {
+				font-size: 1.8rem;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	h1.heading1 {
+		font-size: 5rem;
+	}
+
+	h2.heading2 {
+		font-size: 2.2rem;
+	}
+
+	.labels {
+		font-size: 1.6rem;
+	}
+
+	div.place-holder {
+		margin: 10px 0;
+	}
+
+	input.inputs,
+	textarea.textarea,
+	input.date,
+	select.select {
+		font-size: 1.6rem;
+	}
+
+	.buttons {
+		font-size: 1.8rem;
+	}
+
+	header.header {
+		span.sub-text {
+			font-size: 2.3rem;
+		}
+
+		section.right-header {
+			p.paragraph {
+				font-size: 2.1rem;
+			}
+		}
+	}
+
+	nav.navigation {
+		ul.menu {
+			font-size: 2rem;
+			li.menu-element {
+				padding: 9px 0;
+			}
+		}
+	}
+}
+
+@media (min-width: 1024px) {
+	h1.heading1 {
+		font-size: 6rem;
+	}
+
+	h2.heading2 {
+		font-size: 2.4rem;
+	}
+
+	.labels {
+		font-size: 1.8rem;
+	}
+
+	div.place-holder {
+		margin: 11px 0;
+	}
+
+	input.inputs,
+	textarea.textarea,
+	input.date,
+	select.select {
+		font-size: 1.8rem;
+	}
+
+	.buttons {
+		font-size: 2rem;
+
+		&:hover {
+			background-color: $mainColor;
+			color: $bgColor;
+		}
+	}
+
+	a.links {
+		transition: color 0.2s linear;
+		&:hover {
+			color: grey;
+		}
+	}
+
+	header.header {
+		span.sub-text {
+			font-size: 2.5rem;
+		}
+
+		section.right-header {
+			p.paragraph {
+				font-size: 2.2rem;
+			}
+		}
+	}
+
+	nav.navigation {
+		ul.menu {
+			font-size: 2.5rem;
+			li.menu-element {
+				padding: 12px 0;
+				a.links {
+					transition: color 0.2s linear;
+					&:hover {
+						color: $bgColor;
+					}
+				}
+				&:nth-of-type(2) a {
+					transition: color 0.2s linear, background-color 0.2s linear;
+				}
+
+				&:nth-of-type(2) a:hover {
+					background-color: white;
+					color: $bgColor;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1366px) {
+	h1.heading1 {
+		font-size: 4rem;
+	}
+
+	header.header {
+		&.log-in {
+			flex-direction: column;
+
+			& section.left-header {
+				height: 10vh;
+				margin-top: 40px;
+			}
+
+			& section.right-header {
+				height: calc(90vh - 40px);
+			}
+		}
+		flex-direction: row;
+		span.sub-text {
+			font-size: 1.5rem;
+		}
+
+		section.left-header,
+		section.right-header {
+			width: 100vw;
+		}
+
+		section.left-header {
+			border-bottom: none;
+		}
+
+		section.right-header {
+			p.paragraph {
+				font-size: 1.8rem;
+			}
+		}
+	}
+
+	nav.navigation {
+		ul.menu {
+			font-size: 3rem;
+			li.menu-element {
+				padding: 12px 0;
+			}
+		}
+	}
+}
+
+@media (min-width: 1440px) {
+	h1.heading1 {
+		font-size: 4.5rem;
+	}
+
+	header.header {
+		span.sub-text {
+			font-size: 1.8rem;
+		}
+
+		section.right-header {
+			p.paragraph {
+				font-size: 2rem;
+			}
+		}
+	}
+
+	nav.navigation {
+		ul.menu {
+			font-size: 3.2rem;
+			li.menu-element {
+				padding: 14px 0;
+			}
+		}
+	}
+}
+
+@media (min-width: 1600px) {
+	h1.heading1 {
+		font-size: 5rem;
+	}
+
+	header.header {
+		span.sub-text {
+			font-size: 2rem;
+		}
+
+		section.right-header {
+			p.paragraph {
+				font-size: 2.2rem;
+			}
+		}
+	}
+
+	nav.navigation {
+		ul.menu {
+			font-size: 3.4rem;
+			li.menu-element {
+				padding: 16px 0;
+			}
+		}
+	}
+}

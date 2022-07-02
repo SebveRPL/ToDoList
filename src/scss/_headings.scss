@@ -1,0 +1,38 @@
+@import 'variables';
+h1.heading1 {
+	padding: 0px 2px;
+	font-size: 2rem;
+	font-style: italic;
+	color: $mainColor;
+}
+
+h2.heading2 {
+	padding: 0 2px;
+	font-size: 1.5rem;
+	font-style: italic;
+	color: $mainColor;
+
+	&.red {
+		color: rgb(255, 0, 0);
+		text-align: justify;
+		text-align-last: center;
+	}
+}
+
+h1.panel-heading1 {
+	font-size: 4rem;
+	color: $bgColor;
+}
+
+h2.panel-heading2 {
+	font-size: 3rem;
+	color: $whiteColor;
+	text-transform: uppercase;
+}
+
+h3.panel-heading3 {
+	font-size: 2rem;
+	color: $whiteColor;
+	text-transform: uppercase;
+	border-bottom: 1px solid $mainColor;
+}
